@@ -6,7 +6,7 @@ capistrano_shell_history saves the history of Capistrano Shell.
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano_shell_history'
+    gem 'capistrano_shell_history', :require => false
 
 And then execute:
 
