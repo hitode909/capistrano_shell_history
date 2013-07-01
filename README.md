@@ -6,21 +6,35 @@ Capistrano plugin that provides the command history feature for Capistrano Shell
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano_shell_history', :require => false
+```ruby
+gem 'capistrano_shell_history', :require => false
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install capistrano_shell_history
+```bash
+$ gem install capistrano_shell_history
+```
 
 ## Usage
 
 Add this line to your application's Capfile.
 
-    require 'capistrano_shell_history'
+```ruby
+require 'capistrano_shell_history'
+```
+
+Or create your ~/.caprc with the following
+
+```ruby
+require 'capistrano_colors'
+```
 
 The history will be stored in `.cap_shell_hisotory` in your home directory.
 
