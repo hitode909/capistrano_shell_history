@@ -30,10 +30,10 @@ Add this line to your application's Capfile.
 require 'capistrano_shell_history'
 ```
 
-Or create your ~/.caprc with the following
+Or create `~/.caprc` with the following
 
 ```ruby
-require 'capistrano_colors'
+require 'capistrano_shell_history'
 ```
 
 The history will be stored in `.cap_shell_hisotory` in your home directory.
