@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Add this line to your paplication's Capfile.
+Add this line to your application's Capfile.
 
     require 'capistrano_shell_history'
 
