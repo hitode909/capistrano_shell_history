@@ -1,6 +1,6 @@
 # capistrano_shell_history
 
-capistrano_shell_history saves the history of Capistrano Shell.
+Capistrano plugin that provides the command history feature for Capistrano Shell.
 
 ## Installation
 
